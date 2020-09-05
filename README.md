@@ -50,13 +50,13 @@ Preview spec JSON schema
 {
   "directives": [
       {
-        "action: "include",
+        "action": "include",
         "kind": "pagerange",
         "start": {"pagenumber":1},
         "end": {"pagenumber":4},
       },
       {
-        "action: "include",
+        "action": "include",
         "kind": "pagerange",
         "start": {"pagenumber":7},
         "end": {"pagenumber":10},
