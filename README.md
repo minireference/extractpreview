@@ -36,7 +36,7 @@ To extract pages 1 through 4 and 7 though 10, run
 ./extractpreview.py --pagerange "1-4" --pagerange "7-10"  noBSmath.pdf  noBSmath_preview.pdf
 ```
 
-Or to use a JSON preview spec file use
+Or to use a JSON preview spec file use [not implemented yet]
 ```
 ./extractpreview.py --spec previewspec.json   noBSmath.pdf  noBSmath_preview.pdf
 ```
@@ -67,17 +67,16 @@ Preview spec JSON schema
 
 
 
-Notes
------
-This is WIP
 
-### POC
- - implement CLI args
- - basic pagerange directives in json spec
- - 
+Dev roadmap
+-----------
+
+### Next time
+ - pagerange directives in json spec
+ - implement text parsing + noramlization
+ - impl. text content based page range
 
 
 ### Future
- - implement text parsing + noramlization so can be more reliable
  - implement same functionality for ePub based on ebooklib
 
